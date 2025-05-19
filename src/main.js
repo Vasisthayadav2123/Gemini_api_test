@@ -1,6 +1,6 @@
 import { GoogleGenAI } from '@google/genai';
 
-const ai = new GoogleGenAI({ apiKey: "AIzaSyBKn_1I9FFAGwm3M2S-Y-OFayN0GV9nhsE" });
+const ai = new GoogleGenAI({ apiKey: API_KEY_HERE });
 
 document.getElementById('btn').addEventListener('click', async () => {
   const text = document.getElementById('prompt').value;
